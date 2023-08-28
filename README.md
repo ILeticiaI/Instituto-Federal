@@ -2,7 +2,6 @@
 <div align="center">
 
   
- ***Arquivos feitos a partir do ensino médio do Instituto Federal de Minas Gerais Informática Integrado***
     
     
     
