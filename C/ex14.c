@@ -13,11 +13,9 @@ int main(void) {
 
   float salario, desconto;
 
-  // Solicita o salário ao usuário
   printf("Digite o salário: ");
   scanf("%f", &salario);
 
-  // Calcula o desconto do INSS conforme a tabela
   if (salario <= 600.00) {
     desconto = 0.00;
   } else if (salario <= 1200.00) {
@@ -28,7 +26,6 @@ int main(void) {
     desconto = salario * 0.30;
   }
 
-  // Imprime o desconto do INSS
   printf("Desconto do INSS: %.2f\n", desconto);
 
   return 0;
