@@ -29,8 +29,19 @@ public class ex6 {
 		}
 		
 		
-		
-		
+		em c
+		#include <stdio.h>
+ 
+int main() {
+ 
+    double horas, velocidade, distancia, litrosGastos;
+    scanf("%lf %lf",&horas,&velocidade);
+    distancia = horas*velocidade;
+    litrosGastos = distancia*12;
+    printf("%.3lf\n", distancia);
+ 
+    return 0;
+}
 		
 		
 	}
